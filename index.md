@@ -1,9 +1,4 @@
-# This is my Github blog
-
-
-
-
-<center>Building...</center>
+# Building...
 
 
 
@@ -15,4 +10,9 @@
 
 
 
-<footer>*Thank you for access*</footer>
+
+
+
+
+
+*Thank you for access*
