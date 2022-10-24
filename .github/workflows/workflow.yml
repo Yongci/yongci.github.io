@@ -10,12 +10,12 @@ jobs:
       - name: 'Checkout codes'
         uses: actions/checkout@main
       - name: 'Build & Deploy'
-        run: bash
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
-          BUILD_SCRIPT: uname -a
+        run: uname -a
+#        env:
+#          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#          BRANCH: gh-pages
+#          FOLDER: build
+#          BUILD_SCRIPT: uname -a
 #      - name: Get Git Log
 #        id: git_log
 #        uses: Edisonboy/latest-git-log-action@main
