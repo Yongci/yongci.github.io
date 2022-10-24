@@ -15,4 +15,4 @@
 
 
 
-*Thank you for access*
+*Thanks for your access.*
