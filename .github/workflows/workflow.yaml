@@ -1,0 +1,33 @@
+name: GitHub Action Demo
+on: [push]
+#  push:
+#    branches:
+#      - main
+jobs:
+  build:
+    runs-on: macOS
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@main
+      - name: 'Build & Deploy'
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: uname -a
+#      - name: Get Git Log
+#        id: git_log
+#        uses: Edisonboy/latest-git-log-action@main
+#        with:
+#          tag: origin/master
+#      - name: Send email
+#        uses: dawidd6/action-send-mail@v3
+#        with:
+#          server_address: smtp.qq.com
+#          server_port: 465
+#          username: ${{secrets.MAIL_USERNAME}}
+#          password: ${{secrets.MAIL_PASSWORD}}
+#          subject: Github Actions job result
+#          to: ${{secrets.MAIL_TOUSERNAME}}
+#          from: ${{secrets.MAIL_USERNAME}}
+#          body: ${{github.repository}} push log : ${{steps.git_log.outputs.log}}
