@@ -5,7 +5,7 @@ on: [push]
 #      - main
 jobs:
   build:
-    runs-on: macOS
+    runs-on: 'C02GL0VKMD6T'
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@main
