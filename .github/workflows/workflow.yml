@@ -1,11 +1,11 @@
 name: GitHub Action Demo
-on:
-  push:
-    branches:
-      - main
+on: [push]
+#  push:
+#    branches:
+#      - main
 jobs:
   build:
-    runs-on: 'C02GL0VKMD6T'
+    runs-on: ubuntu:latest
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@main
