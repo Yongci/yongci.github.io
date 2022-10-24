@@ -1,8 +1,8 @@
 name: GitHub Action Demo
-on: [push]
-#  push:
-#    branches:
-#      - main
+on:
+  push:
+    branches:
+      - main
 jobs:
   build:
     runs-on: 'C02GL0VKMD6T'
