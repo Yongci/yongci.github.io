@@ -12,6 +12,8 @@ Welcome to access my GitHub website!
 
 
 
-## Links
 
-[Links](https://yongci.github.io/Links/index.html)
+<footer>
+<h2>Links</h2>
+<a href="https://yongci.github.io/Links/index.html" _blank="target">Links</a>
+</footer>
