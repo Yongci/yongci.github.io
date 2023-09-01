@@ -14,6 +14,5 @@ Welcome to access my GitHub website!
 
 
 <footer>
-<h2>Links</h2>
 <a href="https://yongci.github.io/Links/index.html" _blank="target">Links</a>
 </footer>
