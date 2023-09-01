@@ -5,7 +5,7 @@ on:
      - main
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: macOS
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@main
