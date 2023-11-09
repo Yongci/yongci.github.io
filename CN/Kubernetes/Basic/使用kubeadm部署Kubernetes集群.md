@@ -7,6 +7,10 @@ categories: Kubernetes
 tags: Docker | Kubernetes | K8S
 ---
 
+# [../](https://yongci.github.io/CN/Kubernetes/index.html)
+
+## 使用kubeadm部署Kubernetes集群
+
 > Reference source：https://www.kubernetes.org.cn/5462.html
 >
 > 本文基于`kubernetes-1.14.7`版部署，容器引擎版本为`docker-ce-18.09.9`
