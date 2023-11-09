@@ -7,14 +7,14 @@ categories: Kubernetes
 tags: Docker | Kubernetes | K8S
 ---
 
-# [../](https://yongci.github.io/CN/Kubernetes/index.html)
+[../ 返回上级目录](https://yongci.github.io/CN/Kubernetes/index.html)
 
 ## 使用kubeadm部署Kubernetes集群
 
 > Reference source：https://www.kubernetes.org.cn/5462.html
->
+
 > 本文基于`kubernetes-1.14.7`版部署，容器引擎版本为`docker-ce-18.09.9`
->
+
 > <font color="#ff0000">本文仅适用于开发和测试环境等非正式场合，不能用于生产环境！该集群的`API-Server`和`ETCD`都是**单节点**，数据有丢失风险！</font>
 
 ### 基本规划
