@@ -6,7 +6,7 @@
 
 [English](https://yongci.github.io/EN/index.html)
 
-[简体中文](https://yongci.github.io/CN/index.html)
+[简体中文](/CN/index.html)
 
 
 
