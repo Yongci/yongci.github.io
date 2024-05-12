@@ -7,7 +7,7 @@ categories: Kubernetes
 tags: Kubernetes
 ---
 
-[../ 返回上级目录](https://yongci.github.io/CN/Kubernetes/index.html)
+###### [../  🔙](https://yongci.github.io/CN/Kubernetes/index.html)
 
 ## Kubernetes高可用部署最佳实践
 
