@@ -4,9 +4,7 @@
 
 > 🚀 Mainly engaged in the field of Cloud Native/Container orchestration
 
-Currently working in eBay CCOE department, mainly responsible for CI/CD workflow design, Cloud Native application development and other related research and development work.
-
-94 years old young man...😝
+Mainly responsible for CI/CD workflow design, Cloud Native application development and other related research and development work.
 
 A heavy user of the Linux operating system.
 From basic commands to kernel compilation, I played with everything before. 😖
