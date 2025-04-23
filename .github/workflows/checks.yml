@@ -1,0 +1,25 @@
+name: Checks
+
+on:
+  push:
+    branches:
+    - main
+
+  schedule:
+    - cron: "* * * * *"
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+      - name: Checks
+        run: |
+          git config --local user.name "Yongci"
+          git config --local user.email "zhuyongci@hotmail.com"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull --rebase
+          git commit --allow-empty -m "everything is ok."
+          git push
